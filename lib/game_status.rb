@@ -89,9 +89,9 @@ def winner(board)
         # puts "position_3: #{position_3}"
 
         if position_1 == "X" && position_2 == "X" && position_3 == "X"
-            return "X" # return the win_combination indexes that won.
+            return "X" # return the Token that won.
         elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
-            return "O"  # If you leave in the do loop above, it forces a false return.
+            return "O"  # return the Token that won.
         end
     end
     return false# If you leave in the do loop above, it forces a false return.
