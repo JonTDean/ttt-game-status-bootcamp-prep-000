@@ -94,7 +94,7 @@ def winner(board)
             return "O"  # return the Token that won.
         end
     end
-    return false# If you leave in the do loop above, it forces a false return.
+    return false # If you leave in the do loop above, it forces a false return.
 end
 
 # Define your WIN_COMBINATIONS constant
